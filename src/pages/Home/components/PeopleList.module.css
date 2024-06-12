@@ -1,0 +1,36 @@
+.list {
+  list-style-type: none;
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.person {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.person img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.person h4 {
+  letter-spacing: 0.1rem;
+}
+
+.partyIcon {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 400px) {
+  
+  .person img {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+}
